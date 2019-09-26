@@ -3,6 +3,7 @@ session_start();
 $_SESSION['page'] = "template.php";
 ?>
 <html>
+<!-- COG{view_the_source_luke} -->
 <head>
 <title>NOT Vulnerable Web App</title>
 <link rel="stylesheet" href="style.css" />
