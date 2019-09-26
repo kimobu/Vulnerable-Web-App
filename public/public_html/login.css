@@ -1,0 +1,70 @@
+html {
+	background: #f2f2f2;
+}
+form {
+	background: white;
+	font-family: Verdana, Geneva, sans-serif;
+	width: 25%;
+	margin: auto;
+	border-radius: 10px;
+	height: 400px;
+	-webkit-transition: box-shadow 2s;
+	transition: box-shadow 2s;
+	
+}
+form:hover {
+	box-shadow: 0 10px 16px 0 #57585C,0 6px 20px 0 #57585C !important;
+	-webkit-transition: box-shadow 2s;
+	transition: box-shadow 2s;
+}
+form input {
+	display: block;
+	margin: auto;
+}
+form input[type=submit] {
+	border: 2px solid #bce3ff;
+	background-color: white;
+	padding: 3px 5px 3px 5px;
+	border-radius: 6px;
+	-webkit-transition: .5s;
+	transition: .5s;
+}
+form input[type=submit]:hover {
+	border: 2px solid #bce3ff;
+	color: #57585C;
+	padding: 3px 5px 3px 5px;
+	background-color: #bce3ff;
+}
+form input[type=text],
+form input[type=password] {
+	width: 200px;
+	border: none;
+	border-bottom: 2px solid #e5f4ff;
+	-webkit-transition: border-bottom ease 1s;
+	transition: border-bottom ease 1s;
+}
+form input[type=text]:focus,
+form input[type=password]:focus {
+	border: none;
+	border-bottom: 2px solid #bce3ff;
+	-webkit-transition: border-bottom ease 2s;
+	transition: border-bottom ease 2s;
+	-webkit-animation-name: inputText;
+	-webkit-animation-duration: 2s;
+	-webkit-animation-timing-function: ease;
+	animation-name: inputText;
+	animation-duration: 2s;
+	animation-timing-function: ease;
+}
+img {
+	margin: auto;
+	display: block;
+}
+div#img {
+	width: 100%;
+}
+
+@keyframes inputText {
+	from {width: 0;}
+	to {width: 200px;}
+}

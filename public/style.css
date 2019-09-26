@@ -1,0 +1,105 @@
+body {
+	font-family: Verdana, Geneva, sans-serif;
+	width: 75%;
+	margin: auto;
+}
+header {
+	width: 100%;
+	background: #57585C;
+	color: #D2D3D7;
+}
+header h1 {
+	margin: 0px;
+	padding: 10px;
+	text-align:center;
+	font-family: Arial, Helvetica, sans-serif;
+}
+header nav {
+	float: left;
+	width: 100%;
+	background: #57585C;
+}
+header nav ul {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	background: #57585C;
+}
+header nav ul li {
+	width: 25%;
+	display: block;
+	float: left;
+}
+header nav ul li a {
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	background: #57585C;
+	color: #D2D3D7;
+}
+header nav ul li a:hover {
+	background: #E2E9F1;
+	color: black;
+}
+section {
+	height: 500px;
+	background: #E2E9F1;
+	width: 75%;
+	float: left;
+}
+aside {
+	background: #6FD4D0;
+	width: 25%;
+	float: left;
+	height: 500px;
+	display: flex;
+	align-items: center;
+}
+footer {
+	text-align: center;
+	background: #57585C;
+	color: #D2D3D7;
+	float: left;
+	width: 100%;
+}
+section h4 {
+	width: 80%;
+	margin: auto;
+	padding: 20px 0px 10px 0px;
+}
+section form {
+	width: 80%;
+	margin: auto;
+	padding: 10px 0px 20px 0px;
+}
+section form input {
+	margin-bottom: 5px;
+}
+section form button {
+	margin-top: 5px
+}
+div#results {
+	width: 80%;
+	margin: auto;
+	overflow: auto;
+	height: 250px;
+	border: black 2px dashed;
+}
+aside img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	vertical-align: -100px;
+}
+form#con {
+	display: block;
+	float: left;
+	width: 50%;
+	margin: 10px 0px 20px 50px;
+}
+p#output {
+	display: block;
+	float: left;
+	width: 30%;
+}
