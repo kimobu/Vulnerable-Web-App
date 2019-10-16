@@ -19,7 +19,7 @@ $_SESSION['page'] = "template.php";
 <li id="login">
 <?php
 if(isset($_SESSION['logged'])) {
-	print("<a href='logout.php'>Welcome ".$_SESSION['name']."! &nbsp;Logout</a>");
+	print("<a href='logout.php'>COG{Greetings_Professor_Falken} &nbsp;Logout</a>");
 }
 else {
 	print("<a href='login.php'>Login</a>");

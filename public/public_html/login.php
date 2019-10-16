@@ -10,7 +10,6 @@ if (!$conn) {
 } 
 
 if((isset($_POST["username"]) && isset($_POST["password"]))) {
-print("WTF");
 	$username = $_POST["username"];
 	$password = $_POST["password"];
 
@@ -22,6 +21,7 @@ print("WTF");
 		$_SESSION["logged"] = true;
 		$_SESSION["name"] = mysqli_fetch_row($result)[0];
 		header("location: " . $_SESSION['page']);
+		print("COG{Greetings_Professor_Falken}");
 	}
 }
 ?>
